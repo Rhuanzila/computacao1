@@ -18,11 +18,11 @@ int main(){
     fibonacci[1] = 1;
     
     for(int i = 2; i < n; i++){
-        fibonnacci[i] = fibonnacci[i-1] + fibonnacci[i-2];
+        fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
     }
     
     for(int j = 0; j < n; j++){
-        printf("%d ", fibonnacci[j]);
+        printf("%d ", fibonacci[j]);
     }
     
     return 0;
