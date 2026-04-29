@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-//Fibonnacci
+//Fibonacci
 
 int main(){
     
